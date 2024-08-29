@@ -2,6 +2,10 @@
 
 All notable changes to this project will be documented in this file.
 
+## [v1.0.1] - 19.08.2024
+- Fix: filename for app
+- Fix: typo in readme
+
 ## [v1.0.0] - 19.08.2024
 - Cleanup: project
 - Setup: vue config
