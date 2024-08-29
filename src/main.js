@@ -1,11 +1,16 @@
-import './assets/main.css'
+// IMPORTS
+import { createApp } from 'vue';
+import App from './app.vue';
+import router from './router';
 
-import { createApp } from 'vue'
-import App from './App.vue'
-import router from './router'
+// CREATE APP
+const app = createApp(App);
 
-const app = createApp(App)
+// SETUP ROUTER
+app.use(router);
 
-app.use(router)
+// SETUP STORE
+app.use(gameStore);
 
-app.mount('#app')
+// MOUNT APP
+app.mount('#app');
