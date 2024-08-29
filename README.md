@@ -13,12 +13,12 @@ of a job interview assessment.
 
 ![game-ui.png](public%2Fpreview%2Fgame-ui.png)
 
-## PROJECT SETUP
+## Project Setup
 
 #### Build docker image
 
 ```sh
-docker-compose biuld --no-cache
+docker-compose build --no-cache
 ```
 
 #### Run docker image
