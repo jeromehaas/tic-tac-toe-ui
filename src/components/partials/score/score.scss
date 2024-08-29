@@ -1,0 +1,36 @@
+@import '@/styles/configs/variables.scss';
+
+.score {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  color: $white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 24px;
+  font-family: sans-serif;
+
+  &__player, .player {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  &__player-points {
+    display: flex;
+    flex-direction: row;
+    height: 32px;
+  }
+
+  &__player-label {
+    width: 40px;
+    margin: 0 16px;
+  }
+
+  &__player-points-stroke-group {
+    margin: 0 8px;
+  }
+
+}
