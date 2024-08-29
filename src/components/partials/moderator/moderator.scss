@@ -1,0 +1,24 @@
+@import '@/styles/configs/variables.scss';
+
+.moderator {
+  color: $white;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto auto 0 auto;
+  min-height: 120px;
+
+  &__message {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  &__message-image {
+    height: 28px;
+    width: 28px;
+    margin: 0 12px;
+  }
+
+}
