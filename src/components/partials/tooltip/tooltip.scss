@@ -1,0 +1,22 @@
+@import '@/styles/configs/variables.scss';
+
+.tooltip {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 24px;
+  display: flex;
+  align-items: center;
+
+  &__message {
+    color: $white;
+  }
+
+  &__key {
+    border: 1px solid $white;
+    padding: 4px;
+    color: $white;
+    margin: 0 8px;
+  }
+
+}
