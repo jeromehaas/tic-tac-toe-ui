@@ -1,0 +1,14 @@
+@import '@/styles/configs/variables.scss';
+
+.game {
+  width: 100%;
+  height: 100%;
+  background-color: $black;
+  display: flex;
+  flex-direction: column;
+
+  &__board {
+    aspect-ratio: 1/1;
+  }
+
+}
