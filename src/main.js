@@ -2,6 +2,7 @@
 import { createApp } from 'vue';
 import App from './app.vue';
 import router from './router';
+import gameStore from '@/stores/game-store.js';
 
 // CREATE APP
 const app = createApp(App);
