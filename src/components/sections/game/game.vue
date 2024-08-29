@@ -5,6 +5,7 @@ import './game.scss';
 import Page from '@/components/layouts/page/page.vue';
 import Board from '@/components/partials/board/board.vue';
 import Moderator from '@/components/partials/moderator/moderator.vue';
+import Actions from '@/components/partials/actions/actions.vue';
 
 </script>
 
@@ -12,5 +13,6 @@ import Moderator from '@/components/partials/moderator/moderator.vue';
   <Page class="game">
     <Moderator class="game__moderator" />
     <Board class="game__board" />
+    <Actions class="game__actions" />
   </Page>
 </template>

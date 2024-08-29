@@ -1,0 +1,15 @@
+@import '@/styles/configs/variables.scss';
+
+.actions {
+  height: 30px;
+  margin: 0 auto auto auto;
+  min-height: 120px;
+
+  &__button {
+    padding: 12px 32px;
+    border: 1px solid $white;
+    background-color: $black;
+    color: $white;
+  }
+
+}
