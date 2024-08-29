@@ -1,0 +1,20 @@
+@import '@/styles/configs/variables.scss';
+
+.board {
+  display: grid;
+  grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+  grid-gap: 4px;
+  margin: 80px auto 80px auto;
+  width: 400px;
+  background-color: $white;
+
+  &__field {
+    aspect-ratio: 1/1;
+    background-color: $black;
+    color: $white;
+    display: grid;
+    place-items: center;
+    transition: all 0.1s ease;
+  }
+
+}
